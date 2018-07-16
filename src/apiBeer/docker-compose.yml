@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apibeer:
+    image: ${DOCKER_REGISTRY}apibeer
+    build:
+      context: .\apiBeer
+      dockerfile: Dockerfile
